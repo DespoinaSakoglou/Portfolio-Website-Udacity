@@ -21,4 +21,4 @@ The project consists of the following files:
 *Responsiveness was checked using Google Chrome Developer Tools*
 *To use Chrome Dev Tools:
 - open index.html with Google Chrome
-- right click anywhere on the page and select inspect OR click "Ctrl+Shift+i"
+- right click anywhere on the page and select inspect OR click "Ctrl+Shift+i"*
