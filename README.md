@@ -19,6 +19,7 @@ The project consists of the following files:
 3. To check responsiveness of website, use the developer tools of your browser.
 
 *Responsiveness was checked using Google Chrome Developer Tools*
-*To use Chrome Dev Tools:
-- open index.html with Google Chrome
-- right click anywhere on the page and select inspect OR click "Ctrl+Shift+i"*
+
+*To use Chrome Dev Tools:*
+- *open index.html with Google Chrome*
+- *right click anywhere on the page and select inspect OR click "Ctrl+Shift+i"*
