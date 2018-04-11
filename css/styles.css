@@ -1,0 +1,143 @@
+/* styles.css file contains styles for the page */
+
+/* import Google Fonts API*/
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic)
+
+/* set all elements of page to border box */
+
+* {
+	box-sizing: border-box;
+}
+
+/* set container font style */
+.container {
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+}
+
+/* set margin space in each row section */
+.row {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+/* Header style */
+
+/* set name and job headings' font and margin styles */
+header h1, header h4 {
+	font-weight: lighter;
+}
+
+header h1 {
+	margin-top: 5%;
+}
+
+header h4 {
+	margin-bottom: 0;
+}
+
+/* set name and job headings' font size using media queries */
+/* used in screen views with width smaller than 500px (smartphones) */
+@media only screen and (max-width: 500px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    header h4 {
+        font-size: 0.8em;
+    }
+}
+
+/* used in screen views with width smaller than 800px (tablets) */
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+    header h4 {
+        font-size: 1.5em;
+    }
+}
+
+/* used in screen views with width bigger than 800px (desktops) */
+@media only screen and (min-width: 801px) {
+    header h1 {
+        font-size: 2.7em;
+    }
+    header h4 {
+        font-size: 1.8em;
+    }
+}
+
+/* create logo */
+.logo {
+	background-color: #02b3e4;
+	height: 100px;
+  	width: 100px;
+  	border-radius: 50%;
+  	text-align: center;
+  	vertical-align: middle;
+  	font-size: 400%;
+  	box-shadow: inset -10px -10px 100px #02b3e4, 10px 10px 20px #7d97ad;
+  	position: relative;
+  	display: inline-block;
+  	margin: 5%;
+  	margin-bottom: 0;
+}
+
+.logo-letter {
+	color: #2d3c49;
+	font-style: italic;
+	text-shadow: 2px 2px #7d97ad;
+}
+
+/* set text styles */
+div.text-right {
+	text-align: right;
+}
+
+div.text-cntr {
+	text-align: center;
+}
+
+div.text-uppercase {
+	text-transform: uppercase;
+}
+
+/* horizontal line style */
+hr {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #7d97ad;
+	color: #7d97ad;
+	border: 0 none;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/* main image style */
+.responsive-img {
+	height: 100%;
+	width: 100%;
+}
+
+/* subtitle style */
+header h2 {
+	font-size: 1.5em;
+}
+
+div.text-color {
+	color: #7d97ad;
+}
+
+/* portfolio section style */
+.portfolio-img {
+	height: 100%;
+	width: 100%;
+}
+
+/* footer style */
+footer {
+	position: static;
+	text-align: center;
+}
