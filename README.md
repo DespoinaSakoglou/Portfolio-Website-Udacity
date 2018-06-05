@@ -23,3 +23,19 @@ The project consists of the following files:
 *To use Chrome Dev Tools:*
 - *open index.html with Google Chrome*
 - *right click anywhere on the page and select inspect OR click "Ctrl+Shift+i"*
+
+### Website Illustrations
+
+#### Website Screenshot in Desktop
+
+![](images/responsive-desktop.png)
+
+#### Website Screenshot in iPad
+
+![](images/responsive-ipad.png)
+
+#### Website Screenshots in Nexus 5
+
+![](images/responsive-nexus-a.png)
+
+![](images/responsive-nexus-b.png)
