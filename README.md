@@ -28,14 +28,14 @@ The project consists of the following files:
 
 #### Website Screenshot in Desktop
 
-![](images/responsive-desktop.png)
+![](/images/responsive-desktop.png)
 
 #### Website Screenshot in iPad
 
-![](images/responsive-ipad.png)
+![](/images/responsive-ipad.png)
 
 #### Website Screenshots in Nexus 5
 
-![](images/responsive-nexus-a.png)
+![](/images/responsive-nexus-a.png)
 
-![](images/responsive-nexus-b.png)
+![](/images/responsive-nexus-b.png)
